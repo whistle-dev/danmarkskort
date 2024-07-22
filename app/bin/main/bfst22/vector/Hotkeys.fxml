@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bfst22.vector.Controller">
+    <AnchorPane prefHeight="118.0" prefWidth="299.0">
+      <children>
+         <TabPane prefHeight="200.0" prefWidth="299.0" tabClosingPolicy="UNAVAILABLE">
+           <tabs>
+             <Tab text="Point of Interest">
+               <content>
+                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                           <Label text="Press on canvas" underline="true" />
+                           <HBox prefHeight="171.0" prefWidth="301.0">
+                              <children>
+                                 <VBox alignment="TOP_CENTER" prefHeight="171.0" prefWidth="268.0" spacing="50.0">
+                                    <children>
+                                       <Label prefHeight="29.0" prefWidth="179.0" text="Create POI:" textAlignment="CENTER">
+                                          <font>
+                                             <Font size="20.0" />
+                                          </font>
+                                          <VBox.margin>
+                                             <Insets />
+                                          </VBox.margin>
+                                       </Label>
+                                       <Label prefHeight="30.0" prefWidth="176.0" text="Delete POI:" textAlignment="CENTER">
+                                          <font>
+                                             <Font size="20.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <HBox.margin>
+                                       <Insets left="5.0" top="20.0" />
+                                    </HBox.margin>
+                                 </VBox>
+                                 <VBox alignment="TOP_CENTER" prefHeight="151.0" prefWidth="281.0" spacing="50.0">
+                                    <children>
+                                       <Label prefHeight="29.0" prefWidth="135.0" text="SHIFT + LEFT CLICK">
+                                          <font>
+                                             <Font name="Monospaced Regular" size="12.0" />
+                                          </font>
+                                       </Label>
+                                       <Label prefHeight="29.0" prefWidth="143.0" text="SHIFT + RIGHT CLICK">
+                                          <font>
+                                             <Font name="Monospaced Regular" size="12.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <HBox.margin>
+                                       <Insets right="5.0" top="20.0" />
+                                    </HBox.margin>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </AnchorPane>
+               </content>
+             </Tab>
+             <Tab text="Instant Route">
+               <content>
+                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                        <children>
+                           <Label text="Press on canvas" underline="true" />
+                           <HBox prefHeight="171.0" prefWidth="301.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                              <children>
+                                 <VBox alignment="TOP_CENTER" prefHeight="171.0" prefWidth="268.0" spacing="50.0">
+                                    <children>
+                                       <Label prefHeight="29.0" prefWidth="179.0" text="Start Destination:" textAlignment="CENTER">
+                                          <font>
+                                             <Font size="20.0" />
+                                          </font>
+                                          <VBox.margin>
+                                             <Insets />
+                                          </VBox.margin>
+                                       </Label>
+                                       <Label prefHeight="30.0" prefWidth="176.0" text="End Destination:" textAlignment="CENTER">
+                                          <font>
+                                             <Font size="20.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <HBox.margin>
+                                       <Insets left="5.0" top="20.0" />
+                                    </HBox.margin>
+                                 </VBox>
+                                 <VBox alignment="TOP_CENTER" prefHeight="171.0" prefWidth="247.0" spacing="50.0">
+                                    <children>
+                                       <Label prefHeight="29.0" prefWidth="135.0" text="CTRL + LEFT CLICK">
+                                          <font>
+                                             <Font name="Monospaced Regular" size="12.0" />
+                                          </font>
+                                       </Label>
+                                       <Label prefHeight="29.0" prefWidth="135.0" text="CTRL + RIGHT CLICK">
+                                          <font>
+                                             <Font name="Monospaced Regular" size="12.0" />
+                                          </font>
+                                       </Label>
+                                    </children>
+                                    <HBox.margin>
+                                       <Insets right="5.0" top="20.0" />
+                                    </HBox.margin>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                        </children>
+                     </AnchorPane>
+               </content>
+             </Tab>
+           </tabs>
+         </TabPane>
+      </children></AnchorPane>
+</Scene>

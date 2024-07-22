@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bfst22.vector.Controller">
+   <root>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <VBox alignment="CENTER" prefWidth="1280.0" spacing="20.0">
+               <children>
+                  <Label text="MapIT">
+                     <font>
+                        <Font size="96.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="287.0" fitWidth="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/icon.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="loadDenmarkBtn" defaultButton="true" mnemonicParsing="false" onAction="#loadDefault" prefHeight="85.0" prefWidth="400.0" text="Load Bornholm">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="loadCustomBtn" mnemonicParsing="false" onAction="#loadCustom" prefWidth="400.0" text="Load Custom File">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </root>
+</Scene>
